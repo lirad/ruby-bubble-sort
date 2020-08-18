@@ -14,7 +14,7 @@ This side-by-side comparative method is seen in the GIF image below.
 
 ## Live Demo
 
-To quickly see our project in action, visit the [live demo](https://repl.it/@gurbuzertunga/bubblesort) on repl.it.
+To quickly see our project in action, visit the [live demo](https://repl.it/@lirad/ruby-bubble-sort) on repl.it.
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ To get this project up and running, you must already have ruby installed on your
 1. Open Terminal.
 2. Navigate to your desired location to download the contents of this repository.
 3. Copy and paste the following code into the Terminal:
-    git clone https://github.com/gurbuzertunga/bubble_sort.git
+    git clone https://github.com/lirad/ruby-bubble-sort.git
 4. Hit enter.
 5. Once the repository has been cloned, navigate inside the repository and type:
     ruby bubble_sort.rb
