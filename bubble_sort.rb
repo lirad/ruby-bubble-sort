@@ -1,5 +1,5 @@
 integer_arr = [4, 3, 78, 2, 0, 2]
-string_arr = ["hi", "hello", "hey"]
+string_arr = %w[hi hello hey]
 
 # Bubble sort
 def bubble_sort(array)
