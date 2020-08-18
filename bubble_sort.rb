@@ -1,6 +1,5 @@
-# Arrays to be sorted
 integer_arr = [4, 3, 78, 2, 0, 2]
-string_arr = %w[hi hello hey]
+string_arr = ["hi", "hello", "hey"]
 
 # Bubble sort
 def bubble_sort(array)
@@ -22,7 +21,7 @@ def bubble_sort(array)
       swap_counter += 1
     end
     # Stop the loop if array is sorted
-    break if swap_counter == 0
+    break if swap_counter.zero?
   end
   yield
 end
@@ -50,10 +49,10 @@ def bubble_sort_by(array)
       swap_counter += 1
     end
     # Stop the loop if array is sorted
-    break if swap_counter == 0
+    break if swap_counter.zero?
   end
   yield
-  end
+end
 
 # bubble_sort_by(["hi","hello","hey"])
 bubble_sort_by(string_arr) { puts "Sorted String: #{string_arr}" }
