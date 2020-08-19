@@ -10,6 +10,7 @@ def bubble_sort(array)
       b = array[index + 1]
       is_greater = a <=> b
       next unless is_greater == 1
+
       array[index + 1] = a
       array[index] = b
       swap_counter += 1
@@ -17,9 +18,8 @@ def bubble_sort(array)
     break if swap_counter.zero?
   end
   yield
-  return array
+  array
 end
-
 
 bubble_sort(integer_arr) { puts "Sorted Integer: #{integer_arr}" }
 
@@ -40,7 +40,7 @@ def bubble_sort_by(array)
     break if swap_counter.zero?
   end
   yield
-  return array
+  array
 end
 
 bubble_sort_by(string_arr) { puts "Sorted String: #{string_arr}" }
