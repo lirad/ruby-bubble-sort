@@ -2,6 +2,7 @@ require_relative 'enumerable.rb'
 my_array = [2, 6, 4, 6, 8]
 my_hash = { 'Jane Doe' => 10, 'Jim Doe' => 6 }
 my_range = (10..15)
+
 ####### test cases for my_each ###########
 # p my_array.my_each { |i|  i }
 # my_range.my_each { |i| puts i}
@@ -11,7 +12,7 @@ my_range = (10..15)
 ### test cases for my_each_with_index ####
 # my_range.my_each_with_index { |i , x| p "#{x} : #{i}"}
 # my_array.my_each_with_index { |i, j| p "#{j} : #{i}" }
-# my_hash.my_each { |i, j| p "#{i} : #{j}"}
+# my_hash.each_with_index { |i, j| p "#{i} : #{j}"}
 ##########################################
 
 ####### test cases for my_select #########
