@@ -39,13 +39,14 @@ To get this project up and running, you must already have ruby installed on your
 
 ## Authors
 
-:bust_in_silhouette: **Mahmoud Muhammad**
+:bust_in_silhouette: **Diego lirad**
 - Github: [@lirad](https://github.com/lirad)
 - LinkedIn: [@lirad](https://www.linkedin.com/in/diegoalira/)
 
-:bust_in_silhouette:**Gürbüz Ertunga**
-- Github: [@AkintoyeOlamide](https://github.com/AkintoyeOlamide)
-- Twitter: [@toshactL](https://www.twitter.com/toshactL)
+:bust_in_silhouette:**Akintoye Olamide**
+- Github: [@githubhandle](https://github.com/AkintoyeOlamide)
+- Twitter: [@twitterhandle](https://twitter.com/@toshactL)
+- Linkedin: [linkedin](https://www.linkedin.com/in/akintoye-olamide-baa80b1a4/)
 ## :handshake: Contributing
 
 ## Show your support
