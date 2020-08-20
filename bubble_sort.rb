@@ -29,7 +29,7 @@ def bubble_sort_by(array)
         swap_counter += 1
       end
     end
-    break if swap_counter.positive? 
+    break if swap_counter.positive?
   end
   array
 end
